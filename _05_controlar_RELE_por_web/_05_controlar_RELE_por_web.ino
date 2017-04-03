@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #define RELE_GPIO D1
 
-const char* ssid = "Orange-152A";
-const char* password = "3EE529C4";
+const char* ssid = "sensores";
+const char* password = "sensores";
 bool RELE_estado = LOW;
 
 WiFiServer server(80); //objeto servidor que inicializaremos en el puerto 80
